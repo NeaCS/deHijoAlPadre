@@ -8,7 +8,7 @@ export default function App(props) {
 
   let sumarContador = (e) => {
     setAumentar(aumentar++);
-    console.log(e); //SUMAR
+    console.log(e.target.innerHTML); //SUMAR
   };
 
   return (
