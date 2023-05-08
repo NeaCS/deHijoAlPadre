@@ -4,11 +4,11 @@ import Hijo from './components/Hijo';
 import { useState } from 'react';
 
 export default function App(props) {
-  let [aumentar, setAumentar] = useState(0);
+  let [aumentar, setAumentar] = useState(2);
 
   let sumarContador = (e) => {
     setAumentar(aumentar++);
-    console.log(e.target.innerHTML); //SUMAR
+    console.log(e.target.innerHTML); //Trae el nombre del texto dentro del h1 de hijo (SUMAR)
   };
 
   return (
